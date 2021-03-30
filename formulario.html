@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Formulario</title>
+    <link rel="stylesheet" href="./styles/zen-css.css">
+    <link rel="stylesheet" href="./styles/my-css.css">
+
+</head>
+
+<body>
+
+    <form id="formulario">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" required>
+        <label for="fechanac">Fecha de Nacimiento</label>
+        <input type="date" id="fechanac">
+        <label for="e-mail">e-mail</label>
+        <input type="email" id="e-mail" required>
+        <label for="pass">Contraseña</label>
+        <input type="password" id="pass" required>
+        <div id="error_pass"></div>
+        <input type="submit" id="enviar" value="Enviar Datos">
+
+    </form>
+
+    <script src="./formulario.js"></script>
+
+</body>
+
+</html>
